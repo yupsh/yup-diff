@@ -1,22 +1,9 @@
-# yup-diff
+[![actions](https://github.com/yupsh/yup-diff/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-diff/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-diff/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-diff/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-diff/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-diff/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-diff/actions/workflows/shell.yml)
 
-```
-NAME:
-   diff - compare two files line by line
-
-USAGE:
-   diff [OPTIONS] FILE1 FILE2
-
-   Compare FILE1 and FILE2 line by line.
-
-   With no options, produce ed-style output: `< line` for lines unique
-   to FILE1 and `> line` for lines unique to FILE2.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --unified, -u  output a unified diff
-   --help, -h     show help
-   --version      print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
