@@ -14,7 +14,7 @@ require (
 
 require (
 	github.com/destel/rill v0.8.1 // indirect
-	github.com/gloo-foo/cli v0.1.12
-	github.com/gloo-foo/cmd-diff v0.1.8
+	github.com/gloo-foo/cli v0.1.14
+	github.com/gloo-foo/cmd-diff v0.1.12
 	golang.org/x/text v0.40.0 // indirect
 )
