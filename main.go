@@ -45,7 +45,12 @@ var spec = clix.Spec{
 	Synopsis: synopsis,
 	Build:    build,
 	Flags: []urf.Flag{
-		&urf.BoolFlag{Name: flagUnified, Aliases: []string{"u"}, Usage: "output a unified diff"},
+		&urf.BoolFlag{
+			Name:    flagUnified,
+			Aliases: []string{"u"},
+			Usage:   "output a unified diff",
+			Sources: urf.EnvVars("YUP_DIFF_UNIFIED"),
+		},
 	},
 }
 
